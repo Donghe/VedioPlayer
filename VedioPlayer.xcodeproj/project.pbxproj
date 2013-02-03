@@ -23,6 +23,8 @@
 		8D7991D516BF14DA00426640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7991B016BF14DA00426640 /* Foundation.framework */; };
 		8D7991DD16BF14DA00426640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D7991DB16BF14DA00426640 /* InfoPlist.strings */; };
 		8D7991E016BF14DA00426640 /* VedioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7991DF16BF14DA00426640 /* VedioPlayerTests.m */; };
+		8D7991EA16BF152D00426640 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D7991E916BF152D00426640 /* AVFoundation.framework */; };
+		8D7991F016BF17D500426640 /* vedio.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 8D7991EF16BF17D500426640 /* vedio.MOV */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		8D7991DC16BF14DA00426640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D7991DE16BF14DA00426640 /* VedioPlayerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VedioPlayerTests.h; sourceTree = "<group>"; };
 		8D7991DF16BF14DA00426640 /* VedioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VedioPlayerTests.m; sourceTree = "<group>"; };
+		8D7991E916BF152D00426640 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8D7991EF16BF17D500426640 /* vedio.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = vedio.MOV; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7991EA16BF152D00426640 /* AVFoundation.framework in Frameworks */,
 				8D7991AF16BF14DA00426640 /* UIKit.framework in Frameworks */,
 				8D7991B116BF14DA00426640 /* Foundation.framework in Frameworks */,
 				8D7991B316BF14DA00426640 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +111,7 @@
 		8D7991AD16BF14DA00426640 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D7991E916BF152D00426640 /* AVFoundation.framework */,
 				8D7991AE16BF14DA00426640 /* UIKit.framework */,
 				8D7991B016BF14DA00426640 /* Foundation.framework */,
 				8D7991B216BF14DA00426640 /* CoreGraphics.framework */,
@@ -122,6 +128,7 @@
 				8D7991C616BF14DA00426640 /* MainStoryboard.storyboard */,
 				8D7991C916BF14DA00426640 /* DukeViewController.h */,
 				8D7991CA16BF14DA00426640 /* DukeViewController.m */,
+				8D7991EF16BF17D500426640 /* vedio.MOV */,
 				8D7991B516BF14DA00426640 /* Supporting Files */,
 			);
 			path = VedioPlayer;
@@ -237,6 +244,7 @@
 				8D7991C316BF14DA00426640 /* Default@2x.png in Resources */,
 				8D7991C516BF14DA00426640 /* Default-568h@2x.png in Resources */,
 				8D7991C816BF14DA00426640 /* MainStoryboard.storyboard in Resources */,
+				8D7991F016BF17D500426640 /* vedio.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VedioPlayer/VedioPlayer-Prefix.pch";
 				INFOPLIST_FILE = "VedioPlayer/VedioPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VedioPlayer/VedioPlayer-Prefix.pch";
 				INFOPLIST_FILE = "VedioPlayer/VedioPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
